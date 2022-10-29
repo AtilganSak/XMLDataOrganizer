@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b5b2941af5d6c24e866c432c3cb8edd, type: 3}
+  m_Name: CameraConfig
+  m_EditorClassIdentifier: 
+  ConfigName: Camera
+  ParentFolder: Vehicle/IO
+  RootNode:
+    NodeName: CameraSettings
+    Attributes: []
+    SubNodes:
+    - NodeName: MainCamera
+      Attributes:
+      - AttributeName: id
+        Value: 0
+      SubNodes:
+      - NodeName: Position
+        Attributes:
+        - AttributeName: x
+          Value: 
+        - AttributeName: y
+          Value: 
+        - AttributeName: z
+          Value: 
+        SubNodes: []
+      - NodeName: Rotation
+        Attributes:
+        - AttributeName: x
+          Value: 
+        - AttributeName: y
+          Value: 
+        - AttributeName: z
+          Value: 
+        SubNodes: []
+    - NodeName: LeftCamera
+      Attributes:
+      - AttributeName: id
+        Value: 0
+      SubNodes:
+      - NodeName: Position
+        Attributes:
+        - AttributeName: x
+          Value: 
+        - AttributeName: y
+          Value: 
+        - AttributeName: z
+          Value: 
+        SubNodes: []
+      - NodeName: Rotation
+        Attributes:
+        - AttributeName: x
+          Value: 
+        - AttributeName: y
+          Value: 
+        - AttributeName: z
+          Value: 
+        SubNodes: []
+    - NodeName: RightCamera
+      Attributes:
+      - AttributeName: id
+        Value: 0
+      SubNodes:
+      - NodeName: Position
+        Attributes:
+        - AttributeName: x
+          Value: 
+        - AttributeName: y
+          Value: 
+        - AttributeName: z
+          Value: 
+        SubNodes: []
+      - NodeName: Rotation
+        Attributes:
+        - AttributeName: x
+          Value: 
+        - AttributeName: y
+          Value: 
+        - AttributeName: z
+          Value: 
+        SubNodes: []
+    - NodeName: TargetFollowCamera
+      Attributes:
+      - AttributeName: id
+        Value: 0
+      SubNodes:
+      - NodeName: Position
+        Attributes:
+        - AttributeName: x
+          Value: 
+        - AttributeName: y
+          Value: 
+        - AttributeName: z
+          Value: 
+        SubNodes: []
+      - NodeName: Rotation
+        Attributes:
+        - AttributeName: x
+          Value: 
+        - AttributeName: y
+          Value: 
+        - AttributeName: z
+          Value: 
+        SubNodes: []
